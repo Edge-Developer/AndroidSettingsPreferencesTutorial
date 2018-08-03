@@ -31,6 +31,6 @@
         android:title="Privacy and Policy">
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://www.life.com" />
+            android:data="https://your.privacy_and_policy.url" />
     </Preference>
 </PreferenceScreen>
