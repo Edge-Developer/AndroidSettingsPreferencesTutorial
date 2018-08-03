@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/show_button_default"
+        android:key="@string/textview_visibility_key"
+        android:summaryOff="@string/hidden"
+        android:summaryOn="@string/shown"
+        android:title="Show TextView"/>
+    <EditTextPreference
+        android:defaultValue="@string/default_textview_text"
+        android:key="@string/textview_text_key"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Change TextView's Text" />
+    <ListPreference
+        android:defaultValue="@string/pref_bckgrnd_colour_black_value"
+        android:entryValues="@array/background_colour_values"
+        android:key="@string/textview_backgroundcolor_key"
+        android:entries="@array/background_colour_labels"
+        android:title="TextView Background Color" />
+    <ListPreference
+        android:defaultValue="@string/pref_txt_colour_white_value"
+        android:entries="@array/text_colour_labels"
+        android:entryValues="@array/text_colour_values"
+        android:key="@string/textview_textcolor_key"
+        android:title="TextView Text Color"/>
+    <Preference
+        android:summary="Terms and Codition for app use"
+        android:title="Privacy and Policy">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://www.life.com" />
+    </Preference>
+</PreferenceScreen>

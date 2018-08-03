@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="background_colour_labels">
+        <item>@string/pref_bckgrnd_colour_black_label</item>
+        <item>@string/pref_bckgrnd_colour_red_label</item>
+        <item>@string/pref_bckgrnd_colour_blue_label</item>
+    </array>
+    <array name="background_colour_values">
+        <item>@string/pref_bckgrnd_colour_black_value</item>
+        <item>@string/pref_bckgrnd_colour_red_value</item>
+        <item>@string/pref_bckgrnd_colour_blue_value</item>
+    </array>
+    <array name="text_colour_labels">
+        <item>@string/pref_txt_colour_white_label</item>
+        <item>@string/pref_txt_colour_yellow_label</item>
+        <item>@string/pref_txt_colour_sea_green_label</item>
+    </array>
+    <array name="text_colour_values">
+        <item>@string/pref_txt_colour_white_value</item>
+        <item>@string/pref_txt_colour_yellow_value</item>
+        <item>@string/pref_txt_colour_sea_green_value</item>
+    </array>
+</resources>

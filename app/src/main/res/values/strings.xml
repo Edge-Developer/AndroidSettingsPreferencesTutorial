@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Settings Preferences Tutorial</string>
+
+    <!--Settings Prefrences key-->
+    <string name="textview_visibility_key">textview_visibility</string>
+    <string name="textview_text_key">textview_text</string>
+    <string name="textview_textcolor_key">textview_textcolor</string>
+    <string name="textview_backgroundcolor_key">textview_backgroundcolor</string>
+
+    <!--summary of text view visibility-->
+    <string name="hidden">Hidden</string>
+    <string name="shown">Shown</string>
+
+    <string name="default_textview_text">Hello World</string>
+
+    <!--Text Color Values-->
+    <string name="pref_txt_colour_white_value" translatable="false">white</string>
+    <string name="pref_txt_colour_yellow_value" translatable="false">yellow</string>
+    <string name="pref_txt_colour_sea_green_value" translatable="false">sea_green</string>
+
+    <!--Text Color Labels-->
+    <string name="pref_txt_colour_white_label">White</string>
+    <string name="pref_txt_colour_yellow_label">Yellow</string>
+    <string name="pref_txt_colour_sea_green_label">Sea Green</string>
+
+    <!--Background Color Values-->
+    <string name="pref_bckgrnd_colour_black_value" translatable="false">black</string>
+    <string name="pref_bckgrnd_colour_red_value" translatable="false">red</string>
+    <string name="pref_bckgrnd_colour_blue_value" translatable="false">blue</string>
+
+    <!--Background Color Labels-->
+    <string name="pref_bckgrnd_colour_black_label">Black</string>
+    <string name="pref_bckgrnd_colour_red_label">Red</string>
+    <string name="pref_bckgrnd_colour_blue_label">Blue</string>
+
+</resources>
